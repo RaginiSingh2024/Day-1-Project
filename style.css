@@ -1,0 +1,55 @@
+body {
+  font-family: sans-serif;
+  padding: 2rem;
+  max-width: 500px;
+  margin: auto;
+}
+
+form {
+  margin-bottom: 1rem;
+}
+
+input {
+  padding: 0.5rem;
+  width: 70%;
+}
+
+button {
+  padding: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  background: #8a2a2a;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li.done {
+  text-decoration: line-through;
+  color: rgb(112, 93, 93);
+}
+
+.hidden {
+  display: none;
+}
+
+#popup {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: rgb(65, 212, 65);
+  border: 1px solid green;
+}
+
+#taskCount {
+  margin-top: 1rem;
+  font-weight: bold;
+}

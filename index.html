@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive Task List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>📝 My Task List</h1>
+
+  <form id="taskForm">
+    <input type="text" id="taskInput" placeholder="Add a new task" required />
+    <button id="addBtn">Add Task</button>
+  </form>
+
+  <ul id="taskList"></ul>
+
+  <button id="showPopupBtn">Show Welcome Message</button>
+  <div id="popup" class="hidden">🎉 Welcome to the Task List App!</div>
+
+  <div id="taskCount">Total Tasks: 0</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
